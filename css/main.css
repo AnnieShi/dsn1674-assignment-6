@@ -1,5 +1,75 @@
 html{
-	background-color: #ffffff;
+	box-sizing: border-box;
 	font-family: "Contrail One", cursive;
+	color: white;
+	text-align: center;
 	line-height: 1.5rem;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+
+
+}
+header {
+	background-color: #2b3951;
+padding: 3.5em 0em 0em 0em;
+}
+
+body {
+margin: 0;
+
+}
+.robot-body {
+	width: 320px;
+}
+
+div{
+	position: relative;
+	width: 320px;
+	margin: 0 auto;
+}
+
+.brain {
+	width: 46px;
+	position: absolute;
+	top: 2em;
+	right: 8.4em;
+	transition: all 200ms linear;
+}
+
+div:hover .brain {
+	top: 1em;
+}
+
+.right {
+	width: 125px;
+	position: absolute;
+	top: -2.5em;
+	right: 2.2em;
+	transition: all 200ms linear;
+}
+
+div:hover .right {
+	top: -4em;
+	right: 1em;
+}
+
+.left {
+width: 125px;
+position: absolute;
+	left: 2.2em;
+	top: -2.5em;
+	transition: all 200ms linear;
+}
+
+div:hover .left {
+	top: -4em;
+	left: 1em;
+}
+
+h1 {
+	background-color: #1a2230;
+	padding: 1em;
+	margin: 0;
 }
