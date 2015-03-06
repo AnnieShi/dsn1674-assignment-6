@@ -13,7 +13,7 @@ html{
 }
 header {
 	background-color: #2b3951;
-padding: 3.5em 0em 0em 0em;
+padding: 4em 0em 0em 0em;
 }
 
 body {
@@ -22,6 +22,7 @@ margin: 0;
 }
 .robot-body {
 	width: 320px;
+	display: block;
 }
 
 div{
@@ -34,7 +35,7 @@ div{
 	width: 46px;
 	position: absolute;
 	top: 2em;
-	right: 8.4em;
+	right: 8.5em;
 	transition: all 200ms linear;
 }
 
@@ -51,7 +52,7 @@ div:hover .brain {
 }
 
 div:hover .right {
-	top: -4em;
+	top: -3.5em;
 	right: 1em;
 }
 
@@ -64,7 +65,7 @@ position: absolute;
 }
 
 div:hover .left {
-	top: -4em;
+	top: -3.5em;
 	left: 1em;
 }
 
